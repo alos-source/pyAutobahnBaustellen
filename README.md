@@ -4,10 +4,10 @@
 A function to retrieve information about construction sites on a given highway. The data is requested via URL from "https://autobahn.api.bund.dev/".
 
 ### Inputs
-highway: string - the name of the highway (e.g. "A3").
-reference_point_lat: float - the latitude of the reference point used to filter the construction sites.
-reference_point_long: float - the longitude of the reference point used to filter the construction sites.
-radius: float - the radius (in kilometers) around the reference point used to filter the construction sites.
+- highway: string - the name of the highway (e.g. "A3").
+- reference_point_lat: float - the latitude of the reference point used to filter the construction sites.
+- reference_point_long: float - the longitude of the reference point used to filter the construction sites.
+- radius: float - the radius (in kilometers) around the reference point used to filter the construction sites.
 
 ### Outputs
 A list of dictionaries, where each dictionary corresponds to a construction site and contains information about the site, such as its location, description, and subtitle.
