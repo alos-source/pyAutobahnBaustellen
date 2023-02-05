@@ -1,7 +1,7 @@
 # pyAutobahnBaustellen
 
 ## get_construction_sites
-A function to retrieve information about construction sites on a given highway.
+A function to retrieve information about construction sites on a given highway. The data is requested via URL from "https://autobahn.api.bund.dev/".
 
 ### Inputs
 highway: string - the name of the highway (e.g. "A3").
@@ -25,3 +25,4 @@ print(construction_sites)
 
 ### Requirements
 This function requires the requests library to be installed. You can install it by running pip install requests.
+Since Requests are processed online, an internet connection is necessary to access data from "https://autobahn.api.bund.dev/".
